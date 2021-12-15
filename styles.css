@@ -34,6 +34,16 @@
     width: 300px;
 }
 
+button:hover {
+    cursor:pointer;
+}
+
+button {
+    width: 400px;
+    height: 200px;
+    font-size: xx-large;
+}
+
 @-webkit-keyframes spin {
     0%  {-webkit-transform: rotate(0deg);}
     100% {-webkit-transform: rotate(360deg);}   
