@@ -1,8 +1,8 @@
 const buyNow = document.getElementById('buy-now');
 const button = document.getElementById('button')
 
-button.onclick = (e) => {
-    button.value = 'NO STOPPING THE MUSIC NOW!!!'
+button.onclick = () => {
+    button.textContent = 'NO STOPPING THE MUSIC NOW!!!'
 }
 
 setInterval(() => {
