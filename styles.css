@@ -56,3 +56,7 @@ p {
 h1 {
     font-size: 100px;
 }
+
+#inline {
+    display: inline-block;
+}
