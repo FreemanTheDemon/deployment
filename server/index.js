@@ -3,6 +3,9 @@ const path = require('path');
 
 const app = express();
 
+app.use('/js', express.static(path.join(__dirname, '../index.js')))
+app.use('/remix', express.static(path.join(__dirname, '../resources/remix.mp3')))
+
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
