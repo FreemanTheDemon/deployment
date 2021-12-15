@@ -83,3 +83,10 @@ h1 {
     width: 300px;
     left: 900px;
 }
+
+#spaceballs {
+    float: right;
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+}

@@ -42,8 +42,8 @@ app.get('/resources/free_minecraft.png', function(req, res) {
     res.sendFile(path.join(__dirname, '../resources/free_minecraft.png'));
 });
 
-app.get('/resources/white_pharaoh.png', function(req, res) {
-    res.sendFile(path.join(__dirname, '../resources/white_pharaoh.png'));
+app.get('/resources/white_pharoh.png', function(req, res) {
+    res.sendFile(path.join(__dirname, '../resources/white_pharoh.png'));
 });
 
 app.get('/resources/spaceballs_chapter_12.png', function(req, res) {
