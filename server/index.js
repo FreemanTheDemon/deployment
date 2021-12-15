@@ -7,6 +7,6 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
 
-const port = process.env.port || 4005;
+const port = process.env.PORT || 4005;
 
 app.listen(port, () => {console.log(`COMLINK ${port} ESTABLISHED. AWAITING ORDERS`)});
