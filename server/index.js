@@ -19,7 +19,7 @@ app.get('/css', function(req, res) {
 });
 
 app.get('/resources/:name', function(req, res) {
-    res.sendFile(path.join(__dirname, `/resources/${req.name}`));
+    res.sendFile(path.join(__dirname, `/resources/${req.params.name}`));
 });
 
 const port = process.env.PORT || 4005;
