@@ -1,0 +1,48 @@
+#download1 {
+    position: fixed;
+    left: 500px;
+    top: 300px;
+}
+
+#download2 {
+    position: fixed;
+    left: 900px;
+    top: 1000px;
+    min-height: 900px;
+    max-height: 900px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+#download3 {
+    position: fixed;
+    left: 1500px;
+    top: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 3000px;
+    -webkit-animation: spin 4s infinite linear;
+}
+
+#sexy1 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 300px;
+}
+
+#sexy2 {
+    width: 300px;
+}
+
+@-webkit-keyframes spin {
+    0%  {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}   
+}
+
+p {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 100px;
+}
