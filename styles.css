@@ -42,6 +42,7 @@ button {
     width: 400px;
     height: 200px;
     font-size: xx-large;
+    position: fixed;
 }
 
 @-webkit-keyframes spin {
@@ -58,5 +59,27 @@ h1 {
 }
 
 #inline {
-    display: inline;
+    display: flex;
+    align-self: center;
+}
+
+#warlord {
+    height: 800px;
+}
+
+.smaller {
+    font-size: 30px;
+}
+
+#minecraft {
+    float: right;
+    position: absolute;
+    top: 700px;
+}
+
+#pharaoh {
+    position: absolute;
+    top: 1000px;
+    width: 300px;
+    left: 900px;
 }
