@@ -1,0 +1,12 @@
+const express = require('express');
+const path = require('path');
+
+const app = express();
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '../index.html'));
+});
+
+const port = process.env.port || 4005;
+
+app.listen(port, () => {console.log(`COMLINK ${port} ESTABLISHED. AWAITING ORDERS`)});
