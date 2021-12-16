@@ -38,8 +38,8 @@ app.get('/resources/download.png', function(req, res) {
     res.sendFile(path.join(__dirname, '../resources/download.png'));
 });
 
-app.get('/resources/free_minecraft.png', function(req, res) {
-    res.sendFile(path.join(__dirname, '../resources/free_minecraft.png'));
+app.get('/resources/free_minecraft.gif', function(req, res) {
+    res.sendFile(path.join(__dirname, '../resources/free_minecraft.gif'));
 });
 
 app.get('/resources/white_pharoh.png', function(req, res) {
@@ -52,6 +52,22 @@ app.get('/resources/spaceballs_chapter_12.png', function(req, res) {
 
 app.get('/resources/yair_davidiy.png', function(req, res) {
     res.sendFile(path.join(__dirname, '../resources/yair_davidiy.png'));
+});
+
+app.get('/resources/warlord_YHWH.png', function(req, res) {
+    res.sendFile(path.join(__dirname, '../resources/warlord_YHWH.png'));
+});
+
+app.get('/resources/spock1.png', function(req, res) {
+    res.sendFile(path.join(__dirname, '../resources/spock1.png'));
+});
+
+app.get('/resources/dwarf_mining.gif', function(req, res) {
+    res.sendFile(path.join(__dirname, '../resources/dwarf_mining.gif'));
+});
+
+app.get('/resources/america_vs_europe.png', function(req, res) {
+    res.sendFile(path.join(__dirname, '../resources/america_vs_europe.png'));
 });
 
 const port = process.env.PORT || 4005;
