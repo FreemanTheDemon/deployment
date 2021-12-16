@@ -54,8 +54,8 @@ app.get('/resources/yair_davidiy.png', function(req, res) {
     res.sendFile(path.join(__dirname, '../resources/yair_davidiy.png'));
 });
 
-app.get('/resources/warlord_YHWH.png', function(req, res) {
-    res.sendFile(path.join(__dirname, '../resources/warlord_YHWH.png'));
+app.get('/resources/warlord_YHWH.PNG', function(req, res) {
+    res.sendFile(path.join(__dirname, '../resources/warlord_YHWH.PNG'));
 });
 
 app.get('/resources/spock1.png', function(req, res) {
